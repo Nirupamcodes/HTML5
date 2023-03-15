@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-wrap</title>
+    <style>
+        
+
+    #parent{
+        height: 600px;
+        width: 400px;
+        border: 1px solid;
+        background-color: yellow;
+        display: flex;
+        
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap-reverse;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+        background-color: blueviolet;
+        text-align: center;
+        margin: auto;
+        
+        
+        
+    }
+    #parent2{
+        height: 600px;
+        width: 400px;
+        border: 1px solid;
+        background-color: yellow;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+    #parent3{
+        height: 600px;
+        width: 400px;
+        border: 1px solid;
+        background-color: yellow;
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        /* flex-direction: row-reverse; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+    }
+    #parent4{
+        height: 600px;
+        width: 400px;
+        border: 1px solid;
+        background-color: yellow;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-wrap: wrap-reverse; */
+        flex-direction: row-reverse;
+        /* flex-wrap: wrap-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+    }
+</style>
+</head>
+<body>
+
+    <div id="parent">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+        <div class="box">box10</div>
+        <div class="box">box11</div>
+        <div class="box">box12</div>
+        <div class="box">box13</div>
+        <div class="box">box14</div>
+        <div class="box">box15</div>
+    </div>
+    <br>
+    <div id="parent2">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+        <div class="box">box10</div>
+        <div class="box">box11</div>
+        <div class="box">box12</div>
+        <div class="box">box13</div>
+        <div class="box">box14</div>
+        <div class="box">box15</div>
+    </div>
+    <br>
+    <div id="parent3">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+        <div class="box">box10</div>
+        <div class="box">box11</div>
+        <div class="box">box12</div>
+        <div class="box">box13</div>
+        <div class="box">box14</div>
+        <div class="box">box15</div>
+    </div>
+    <br>
+    <div id="parent4">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+        <div class="box">box10</div>
+        <div class="box">box11</div>
+        <div class="box">box12</div>
+        <div class="box">box13</div>
+        <div class="box">box14</div>
+        <div class="box">box15</div>
+    </div>
+
+    
+</body>
+</html>

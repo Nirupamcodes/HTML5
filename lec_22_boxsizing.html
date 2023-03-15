@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxsizing</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        #Box1{
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            background: yellow;
+            margin-top: 40px;
+
+        }
+
+        #Box2{
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            box-sizing: border-box;
+            background-color: blueviolet;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="Box1">
+        <center><h1>yellow</h1></center>
+    </div>
+
+    <div id="Box2">
+        <center><h1>purple</h1></center>
+        
+    </div>
+    
+
+</body>
+</html>
